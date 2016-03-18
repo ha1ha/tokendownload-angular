@@ -1,7 +1,7 @@
 # tokendownload-angular
 This an angular module to download files when working with tokens which contains of both client and server code (in c#).
 
-## What problem is solved?
+## Which problem is solved?
 When downloading files in an angular (or basically and other SPA-Framework) und using token-based authentication, you will need some additional efforts to let the user download files while ensuring the authentication and authorization of the user at the same time.
 This because you cannot intercapt every link (and the HTTP-Request) in your application to add additional headers. This is how a traditional REST-Call is intercepted, by a HttpRequestInterceptor (in AngularJs)
 There are different options while keeping the token-based approach intact
