@@ -2,7 +2,7 @@
 This an angular module to download files when working with tokens for authentication. This repository contains a server part (in c#) and angularjs code to make the usage of this approach as easy as possible.
 
 ## Which problem is solved?
-When downloading files in an angular (or basically and other SPA-Framework) und using token-based authentication, you will need some additional efforts to let the user download files while ensuring the authentication and authorization of the user at the same time.
+When downloading files in an angular app (or basically and other SPA-Framework) while using token-based authentication, you will face the need of additional efforts to let the user download files while ensuring the authentication and authorization is still enabled same time.
 This because you cannot intercapt every link (and the HTTP-Request) in your application to add additional headers. This is how a traditional REST-Call is intercepted, by a HttpRequestInterceptor (in AngularJs)
 There are different options while keeping the token-based approach intact
 
